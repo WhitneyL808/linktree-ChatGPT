@@ -35,6 +35,28 @@ h1 {
     color: #222;
 }
 
+/* Media query for tablet screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px; /* Reduce header size for tablets */
+    }
+
+    .link-item {
+        padding: 15px 20px; /* Increase link item size for tablets */
+    }
+}
+
+/* Media query for phone screens */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 48px; /* Reduce header size for phones */
+    }
+
+    .link-item {
+        padding: 20px 30px; /* Increase link item size for phones */
+    }
+}
+
 
 
 
