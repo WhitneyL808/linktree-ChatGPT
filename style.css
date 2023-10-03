@@ -15,16 +15,17 @@ h1 {
     align-items: center;
 }
 .link-item {
-    margin: 10px 0;
-    padding: 10px;
-    background-color: #ffa34d; /* Orange */
-    color: #fff;
-    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px 20px;
+    background-color: white; /* Orange */
+    color: #ffa34d;
+    border-radius: 10px;
     text-decoration: none;
     transition: background-color 0.3s;
 }
 .link-item:hover {
     background-color: #ff8a33; /* Lighter Orange */
+    color: white;
 }
 .computer-details {
     margin-top: 20px;
